@@ -41,7 +41,7 @@ details !: FormGroup
   }
   onSave(){
     this.http.post<any>('http://localhost:3000/users',this.details.value).subscribe(res=>{
-      alert('Successfully');
+      alert('Successfully Signup');
     }) 
     this.details.reset()
    }

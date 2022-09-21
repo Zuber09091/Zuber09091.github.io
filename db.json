@@ -69,6 +69,20 @@
       "occp": "Developer",
       "exp": "1-3 Year",
       "id": 5
+    },
+    {
+      "email": "pqr@gmail.com",
+      "name": "PQR",
+      "mobile": 215896347,
+      "address": "kormangala",
+      "city": "Bangalore",
+      "state": "Madhya Pradesh",
+      "pincode": 560078,
+      "country": "India",
+      "company": "Micro",
+      "occp": "Developer",
+      "exp": "0-1 Year",
+      "id": 6
     }
   ],
   "comments": [
