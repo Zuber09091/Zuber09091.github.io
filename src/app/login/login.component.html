@@ -1,0 +1,20 @@
+<div mat-dialog-title>Login Page</div>
+<div mat-dialog-content>
+    <form [formGroup]="login">
+        <p>
+            <mat-form-field appearance="fill">
+                <mat-label>Enter your email</mat-label>
+                <input matInput placeholder="pat@example.com" formControlName="email">
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field appearance="fill">
+                <mat-label>Password</mat-label>
+                <input matInput placeholder="Enter Password" formControlName="password">
+            </mat-form-field>
+        </p>
+    </form>
+<div [align]="'center'">
+    <button mat-raised-button (click)="onLogin()" color="primary">Login</button>
+</div>
+</div>

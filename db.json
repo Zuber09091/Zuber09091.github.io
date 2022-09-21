@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "email": "Alizuber48@gmail.com",
+      "name": "Zuber kHAN",
+      "mobile": 7987693620,
+      "address": "bhopal",
+      "city": "Hyderabad",
+      "state": "Andra Pradesh",
+      "pincode": 462008,
+      "country": "India",
+      "company": "animesh traders",
+      "occp": "Developer",
+      "exp": "0-1 Year",
+      "id": 1
+    },
+    {
+      "email": "shivan@gmail.com",
+      "name": "Shivam Singh",
+      "mobile": 9303745441,
+      "address": "bhopal",
+      "city": "Other",
+      "state": "Madhya Pradesh",
+      "pincode": 462023,
+      "country": "India",
+      "company": "animesh traders",
+      "occp": "Tester",
+      "exp": "1-3 Year",
+      "id": 2
+    },
+    {
+      "email": "sanakhan@gmail.com",
+      "name": "sana",
+      "mobile": 1234567890,
+      "address": "h.s.s bhopal",
+      "city": "Hyderabad",
+      "state": "Andra Pradesh",
+      "pincode": 4562013,
+      "country": "India",
+      "company": "NA",
+      "occp": "Tester",
+      "exp": "3-5 Year",
+      "id": 3
+    },
+    {
+      "email": "abc@gmail.com",
+      "name": "Abc",
+      "mobile": 7894561230,
+      "address": "kormanagala",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": 462008,
+      "country": "India",
+      "company": "NA",
+      "occp": "Developer",
+      "exp": "0-1 Year",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

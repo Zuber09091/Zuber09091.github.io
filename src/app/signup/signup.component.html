@@ -1,0 +1,77 @@
+<div mat-dialog-title style="text-align: center;">Signup Form</div>
+<div mat-dialog-content>
+<div class="form">
+<form [formGroup]="details">
+    <p>
+        <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Enter Your Name" formControlName="name">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Enter your email</mat-label>
+            <input matInput placeholder="pat@example.com" formControlName="email" required>
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="fill">
+            <mat-label> Mobile</mat-label>
+            <input matInput type="number" placeholder="Enter Your Phone" formControlName="mobile" style="text-decoration: none;">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Address</mat-label>
+            <input matInput placeholder="Enter Your Address" formControlName="address">
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="fill">
+            <mat-label>City</mat-label>
+            <mat-select formControlName="city">
+              <mat-option value="{{da.cname}}" *ngFor="let da of data">{{da.cname}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>State</mat-label>
+            <mat-select formControlName="state">
+              <mat-option value="{{da.sname}}" *ngFor="let da of data">{{da.sname}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="fill">
+            <mat-label> Pincode</mat-label>
+            <input matInput type="number" placeholder="Enter Pincode" formControlName="pincode">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Country</mat-label>
+            <mat-select formControlName="country">
+              <mat-option value="{{da.countries}}" *ngFor="let da of data">{{da.countries}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="fill">
+            <mat-label>Company Name</mat-label>
+            <input matInput placeholder="Enter Company Name" formControlName="company">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Occupation</mat-label>
+            <mat-select formControlName="occp">
+              <mat-option value="{{da.occupation}}" *ngFor="let da of data">{{da.occupation}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="fill" style="width:100%;">
+            <mat-label>Experience</mat-label>
+            <mat-select formControlName="exp">
+              <mat-option value="{{da.count}}" *ngFor="let da of data">{{da.count}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+      </p>
+</form>
+<div [align]="'center'">
+    <button mat-raised-button color="primary" (click)="onSave()">Submit</button>
+    <button mat-raised-button color="warn" (click)="onClear()">Clear</button>
+</div>
+</div>
+</div>
