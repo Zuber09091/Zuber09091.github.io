@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
       })
       if (user) {
         alert('Successfully Login')
-        this.login.reset();
+        this.login.reset()
       }
     })
   }
